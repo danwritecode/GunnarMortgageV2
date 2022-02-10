@@ -16,7 +16,8 @@
     </div>
     <div class="absolute inset-y-0 left-0 flex flex-col justify-between">
       <img src="~/assets/img/triangle.svg" alt="triangle shape" class="h-40 w-auto lg:h-48 2xl:h-72">
-      <img src="~/assets/img/circle.svg" alt="circle shape" class="h-32 w-auto lg:h-32 2xl:h-64">
+      <img src="~/assets/img/circle.svg" alt="circle shape" class="hidden sm:block h-32 w-auto lg:h-32 2xl:h-64">
+      <img src="~/assets/img/circle_full.svg" alt="circle shape" class="sm:hidden absolute -bottom-5 left-0 h-32 w-auto lg:h-32 2xl:h-64">
     </div>
   </div>
 </template>
